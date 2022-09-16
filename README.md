@@ -14,3 +14,7 @@ run the container :
 ```
 docker run --network=net-214-1  -v /home/test/bind :/etc/bind --dns=10.255.255.200\--name c-214-2-64 --hostname c-214-2-64 -it registry.iutbeziers.fr/debianiut bash
 ```
+and
+```
+docker exec -it "id du container" bash
+```
